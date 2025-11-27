@@ -6,10 +6,8 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header id="header">
     <div class="container nav-bar">
-      <!-- Business logo: replace logo.jpg with your file -->
       <div class="brand">
         <img src="logo.png" alt="Livingspring logo" class="logo">
         <div class="brand-text">
@@ -28,7 +26,6 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section id="home" class="hero">
     <div class="container hero-inner">
       <div class="hero-left">
@@ -46,7 +43,6 @@
       </div>
 
       <div class="hero-right">
-        <!-- Owner image (owner.jpg) -->
         <div class="hero-card">
           <img src="owner.jpg" alt="Owner" class="owner-img">
           <div class="owner-name">Genesis Jeffery</div>
@@ -56,7 +52,6 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section id="about" class="section">
     <div class="container">
       <h2>About Us</h2>
@@ -64,7 +59,6 @@
     </div>
   </section>
 
-  <!-- SERVICES (Glassmorphism style) -->
   <section id="services" class="section">
     <div class="container">
       <h2>Our Services</h2>
@@ -97,14 +91,12 @@
     </div>
   </section>
 
-  <!-- GALLERY Outer listings -->
   <section id="gallery" class="section">
     <div class="container">
       <h2>Featured Listings</h2>
       <p class="lead">Click a listing to view a beautiful interior slideshow.</p>
 
       <div class="outer-gallery">
-        <!-- outer thumbnail cards - these open nested slideshows -->
         <div class="listing" data-key="house1"><img src="house1-1.jpg" alt="House 1"></div>
         <div class="listing" data-key="house2"><img src="house2-1.jpg" alt="House 2"></div>
         <div class="listing" data-key="house3"><img src="house3-1.jpg" alt="House 3"></div>
@@ -118,18 +110,13 @@
     </div>
   </section>
 
-  <!-- NESTED SLIDESHOW MODAL -->
   <div id="slideshow" class="slideshow" aria-hidden="true">
     <button class="close" aria-label="Close slideshow" onclick="closeSlideshow()"></button>
 
     <div class="slideshow-inner">
       <img id="slide-image" alt="Interior view">
       <div id="slide-caption" class="slide-caption"></div>
-
-      <!-- thumbnails strip -->
       <div id="thumbs" class="thumbs"></div>
-
-      <!-- controls -->
       <div class="slideshow-controls">
         <button class="prev" aria-label="Previous" onclick="prevSlide()">❮</button>
         <button class="play-btn" aria-label="Play / Pause" onclick="togglePlay()">▶ Auto Play</button>
@@ -138,7 +125,6 @@
     </div>
   </div>
 
-  <!-- CONTACT -->
   <section id="contact" class="section">
     <div class="container contact-wrap">
       <div class="contact-card glass">
@@ -178,7 +164,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <small>© 2025 Livingspring Enterprise — All rights reserved.</small>
